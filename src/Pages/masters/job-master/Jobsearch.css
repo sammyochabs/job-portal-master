@@ -1,0 +1,98 @@
+.searchWhat,
+.searchWhere {
+  border: 1px solid #949494;
+  border-radius: 0.5rem;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  padding: 0.75rem 1rem;
+  width: 42%;
+}
+
+.searchinput {
+  width: 100%;
+  display: flex;
+}
+
+.searchWhat input,
+.searchWhere input {
+  border: none;
+  padding: 0;
+  color: #2d2d2d;
+  outline: none;
+  padding-left: 40px;
+  width: 100%;
+  margin-bottom: 6px;
+}
+.search {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.btn {
+  display: inline-block;
+  border: 1px solid #ddd;
+  padding: 9px 20px;
+  font-size: 16px;
+  text-transform: capitalize;
+  background: #00bcd4;
+  line-height: 20px;
+  font-weight: 500;
+  border: none;
+  color: #fff;
+  border-radius: 3px;
+  box-shadow: 0 0 13px -1px rgb(0 0 0 / 30%);
+  text-decoration: none;
+  transition: 0.3s;
+}
+.filters {
+  display: flex;
+  padding-top: 20px;
+  justify-content: center;
+}
+.filter {
+  box-sizing: border-box;
+  height: 42px;
+  min-width: 150px;
+  padding: calc(0.5rem + 2px) calc(1rem + 2px);
+  border: 0;
+  justify-content: center;
+  margin: 0 0.5rem 0.5rem 0;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.datePosted {
+  background: #efefef;
+  margin: 0px 5px 5px 0px;
+  font-size: 12px;
+  color: #2d2d2d;
+}
+.content {
+  width: 100%;
+}
+/* 
+.menu {
+  background: white;
+  display: none;
+  width: 200px;
+  height: auto;
+  padding: 20px;
+  box-shadow: 0 8px 16px rgb(0 0 0 / 8%);
+  border-radius: 4px;
+  z-index: 1000;
+  position: absolute;
+
+  justify-content: space-evenly;
+  align-items: center;
+}
+.menu ul {
+  padding: 20px !important;
+  list-style: none;
+}
+.menu li {
+  padding-bottom: 10px;
+  cursor: pointer;
+  width: 100%;
+} */

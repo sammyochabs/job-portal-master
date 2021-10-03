@@ -1,0 +1,148 @@
+
+
+body.login{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: url(../../assets/images/login-lgst.jpg) no-repeat;
+    background-size: cover;
+    background-position:top center;
+    position: relative;
+}
+
+.login-holder{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    right: 5%;
+    transform: translate(0,-50%);
+    -webkit-transform: translate(0,-50%);
+    max-width:580px;
+    padding:25px 40px 30px;
+    background: #fff;
+    border-radius: 25px;
+    box-shadow: 0 0 18px -1px rgba(0,0,0,0.2);
+    overflow: hidden;
+}
+
+
+
+.log-logohlder{
+    background: #fff;
+    width: 100px;
+    height: 91px;
+    overflow: hidden;
+    text-align: center;
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #c5e5f7;
+    border-radius: 100%;
+    padding-bottom: 0;
+    box-shadow: 0 31px 40px -28px rgba(0,0,0,0.5);
+}
+
+.log-logohlder img{
+    width: 100%;
+}
+
+.login-nd-frm-holder{
+    width: 300px;
+    position: relative;
+    float: right;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.login-nd-frm-holder h1{
+    margin: 0;
+    font-size: 34px;
+    font-weight: 600;
+    padding-bottom: 38px;
+    color: #474c4c;
+}
+
+.login-nd-frm-holder .form-group{
+    margin-bottom: 25px;
+}
+
+.login-nd-frm-holder .form-group:last-child{
+    margin-bottom: 0;
+}
+
+.login-nd-frm-holder input{
+    width:100%;
+    border:none;
+    border-bottom:1px solid #ddd;
+    font-size:16px;
+    padding:10px;
+    transition:0.3s;
+}
+
+
+.login-nd-frm-holder input.login-emil{
+ background:#fff url(../../assets/images/loginuser.png) no-repeat;
+ background-position:left 5px center;
+ background-size: 15px;
+ padding-left:30px;
+}
+
+.login-nd-frm-holder input.login-password{
+    background:#fff url(../../assets/images/loginkey.png) no-repeat;
+    background-position:left 5px center;
+    background-size: 15px;
+    padding-left: 30px;
+   }
+
+
+
+.login-nd-frm-holder input:focus{
+    outline:none;
+    border: none;
+    border-bottom: 1px solid #309394 ;
+    border-color:#309394;
+}
+
+.login-nd-frm-holder input[type="submit"]{
+    max-width: 200px;
+    text-align: center;
+    background: #51bdbe;
+    margin: 0 auto;
+    border-radius: 25px;
+    font-weight: 500;
+    color: #fff;
+    font-size: 20px;
+    line-height: 20px;
+    padding-bottom: 15px;
+
+}
+
+.login-nd-frm-holder input[type="submit"]:hover{
+    background:#309394;
+}
+
+.lft-img{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    position: absolute;
+    width: 300px;
+    left: -15px;
+}
+
+.lft-img img{
+    width: 100%;
+}
+
+.login-nd-frm-holder .form-group span.invalid{
+    color: red;
+    width: 100%;
+    text-align: left;
+    display: block;
+}
+
+div.regenPass{
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+
